@@ -29,8 +29,24 @@
 
 - name: "vivaldi"
   fullName: "com.vivaldi.Vivaldi"
-  description: "Vivaldi"
+  descriptioon: "Vivaldi"
   path: "~/Library/Application Support/Vivaldi"
   iconUrl: "vivaldi.png"
   profileName: "Default"
 
+- name: "brave"
+  fullName: "com.brave.Browser"
+  description: "Brave"
+  path: "~/Library/Application Support/BraveSoftware/Brave-Browser"
+  iconUrl: "vivaldi.png"
+  profileName: "Default"
+
+  # 15) "Brave Browser" ASN:0x0-0x1b01b:
+  #   bundleID="com.brave.Browser"
+  #   bundle path="/Applications/Brave Browser.app"
+  #   executable path="/Applications/Brave Browser.app/Contents/MacOS/Brave Browser"
+  #   pid = 472 type="Foreground" flavor=3 Version="119.92" fileType="APPL" creator="Cr24" Arch=x86_64
+  #   parentASN="loginwindow" ASN:0x1-0x96:
+  #   launch time =  2021/02/06 14:46:07 ( 19 minutes, 26.4103 seconds ago )
+  #   checkin time = 2021/02/06 14:46:08 ( 19 minutes,  25.06 seconds ago )
+  #   launch to checkin time: 1.35029 seconds
